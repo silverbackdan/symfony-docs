@@ -332,7 +332,7 @@ service into your autowired classes.
 
 .. note::
 
-    Pay attention to the trailing slashes in the `base_uri` parameter and prefixed slashes in your path when making a request. To keep the path in your `base_uri` it must end with a slash and your request path must NOT start with a slash. E.g. Making a request to the path `endpoint` with the `base_uri` `https://example.com/api/` the request will be sent to `https://example.com/api/endpoint`. If you make a request to the path `/endpoint`, or your `base_uri` is `https://example.com/api`, the request will be sent to `https://example.com/endpoint`
+    Pay attention to the trailing slashes in the `base_uri` parameter and prefixed slashes in your path when making a request. To keep the path in your `base_uri` it must end with a slash and your request path must NOT start with a slash. E.g. If you make a request to the path `endpoint` with the `base_uri` `https://example.com/api/` the request will be sent to `https://example.com/api/endpoint`. If you make a request to the path `/endpoint`, or your `base_uri` is `https://example.com/api`, the request will be sent to `https://example.com/endpoint`
 
 Making Requests
 ---------------
